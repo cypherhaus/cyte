@@ -9,8 +9,13 @@ export const Foss = () => (
       <Card
         title="supa-zbd"
         description="bootstrap a bitcoin/ln web app with ZBD x supabase"
+        link="https://github.com/cypherhaus/supa-zbd"
       />
-      <Card title="cyte" description="the site you are now using" />
+      <Card
+        title="cyte"
+        description="The cyperhaus site you're now visiting"
+        link="https://github.com/cypherhaus/cyte"
+      />
     </div>
   </div>
 );

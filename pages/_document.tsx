@@ -45,12 +45,21 @@ export default class ZBDDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html: `
+
+            @font-face {
+              font-family: 'Aero';
+              src: url('/fonts/athaus/Light.woff2') format('woff2'),
+                  url('/fonts/athaus/Light.woff') format('woff');
+              font-style: normal;
+              font-weight: 400;
+              font-display: block;
+            }
              @font-face {
               font-family: 'Aero';
               src: url('/fonts/athaus/Regular.woff2') format('woff2'),
                   url('/fonts/athaus/Regular.woff') format('woff');
               font-style: normal;
-              font-weight: 400;
+              font-weight: 500;
               font-display: block;
             }
     
