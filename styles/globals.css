@@ -8,6 +8,8 @@ body {
   margin: 0;
   font-family: "Aero";
   letter-spacing: 2px;
+  scrollbar-color: #37514f #2c4745; /* track thumb */
+  scrollbar-width: 0.1px;
 }
 
 a {
@@ -26,6 +28,5 @@ a {
   body {
     color: white;
     background: #2c4745;
-    padding: 2rem;
   }
 }
