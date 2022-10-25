@@ -1,8 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { Foss } from "../components/Foss";
-import Logo from "../components/Logo";
-import { Store } from "../components/Store";
 
 const Home: NextPage = () => {
   return (
