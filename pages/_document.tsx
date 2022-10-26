@@ -11,6 +11,11 @@ export default class ZBDDocument extends Document {
     return (
       <Html>
         <Head>
+          <link
+            rel="shortcut icon"
+            href="data:image/x-icon;,"
+            type="image/x-icon"
+          />
           {/* Fonts Preloading */}
           <link
             as="font"
