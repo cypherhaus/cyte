@@ -12,9 +12,9 @@ export const Foss = () => (
     <div className="relative">
       <div className="z-10 pl-10 pb-8 flex overflow-x-scroll">
         <Card
-          title="supa-zbd"
+          title="JuiceBox"
           description="bootstrap a bitcoin/ln web app with ZBD x supabase"
-          link="https://github.com/cypherhaus/supa-zbd"
+          link="https://github.com/cypherhaus/juicebox"
         />
         <Card
           title="cyte"
