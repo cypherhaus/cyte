@@ -52,7 +52,7 @@ const Blog: NextPage = () => {
         <strong>Motivation</strong>
         <p className="text-left leading-7 mb-6 mt-2">
           Creating a lightning app can be complicated, thankfully ZEBEDEE make
-          this much easier with their API for sending and recieving lightning
+          this much easier with their API for sending and receiving lightning
           payments. But still, to achieve a lightning app like Stacker News, you
           still need to think about the notion of account balances. I built this
           for myself to use as a starting point for lightning apps, but I hope
@@ -578,11 +578,9 @@ const Blog: NextPage = () => {
           trigger another deployment
         </p>
 
-        <p className="mt-2">
-          <strong>
-            Be sure to also add these environment variables to your Netlify
-            Deployment in Site Settings Environment Variables section
-          </strong>
+        <p className="text-left leading-7 mb-6 mt-2">
+          Be sure to also add these environment variables to your Netlify
+          Deployment in Site Settings Environment Variables section.
         </p>
 
         <p className="text-left leading-7 mb-6 mt-2">
