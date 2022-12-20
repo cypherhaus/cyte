@@ -78,7 +78,7 @@ const Blog: NextPage = () => {
           <a href="https://supabase.com">Supabase</a> is used to handle account
           balances, store transaction and profile information, as well as for
           authentication. When transaction data records are inserted / updated,
-          Supabase's{" "}
+          Supabase{" "}
           <a href="https://supabase.com/docs/guides/database/functions">
             Postgres Database Functions
           </a>{" "}
