@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 interface CardProps {
   title: string;
@@ -7,11 +8,15 @@ interface CardProps {
 }
 
 export const Card = ({ title, description, link }: CardProps) => (
-  <div
-    onClick={() => window.open(link)}
-    className="mr-10 shrink-0 p-4 h-40 w-[280px] max-w-[280px] rounded bg-green/70 cursor-pointer z-10 hover:bg-green/100"
-  >
-    <p className="text-center text-2xl mb-4 font-medium">{title}</p>
-    <p className="text-left text-sm font-normal">{description}</p>
-  </div>
+  <Link href={link}>
+    <div className="flex flex-row cursor-pointer">
+      <div className="flex justify-center items-center shrink-0 p-4 h-40 w-[180px] h-[180px] max-w-[280px] bg-lsd cursor-pointer z-10">
+        {/* <Image src={logo} alt="Test" /> */}
+      </div>
+      <div className="w-[400px]  p-4 border-solid border border-black">
+        <p className="text-2xl font-bold mb-4 cursor-pointer">{title}</p>
+        <p className="text-left text-xl font-normal leading-8">{description}</p>
+      </div>
+    </div>
+  </Link>
 );

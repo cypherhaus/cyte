@@ -11,7 +11,9 @@ module.exports = {
       colors: {
         main: "#243c5a",
         offMain: "#3C5553",
+        lsd: "#AF340E",
         green: "#30524F",
+        cypherhaus: "#2c4745",
       },
 
       letterSpacing: {
