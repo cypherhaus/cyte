@@ -4,6 +4,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      desktop: "800px",
+    },
     extend: {
       fontFamily: {
         display: ["Beyond"],
