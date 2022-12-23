@@ -12,7 +12,7 @@ interface CardProps {
 export const Card = ({ title, description, link }: CardProps) => (
   <Link href={link}>
     <div className="flex flex-row cursor-pointer">
-      <div className="min-w-[200px] w-[200px] bg-lsd h-[200px] max-h-[200px]">
+      <div className="min-w-[200px] w-[200px] h-[200px] max-h-[200px]">
         <Image src={orangeSunshine} alt="Test" />
       </div>
       <div className="max-w-[300px]  max-h-[200px] p-4 border-solid border border-black">
