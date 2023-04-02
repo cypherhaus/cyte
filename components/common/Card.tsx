@@ -1,7 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-import orangeSunshine from "../../assets/images/orange-sunshine.jpg";
 
 interface CardProps {
   title: string;

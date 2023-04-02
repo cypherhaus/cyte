@@ -66,11 +66,7 @@ const Blog: NextPage = () => {
         </ul>
         <strong>Architecture</strong>
         <p className="text-left leading-7 mb-6 mt-2">
-          The app was initiated with{" "}
-          <a href="https://reactjs.org/docs/create-a-new-react-app.html">
-            Create React App
-          </a>
-          .
+          The app was initiated with <a href="https://nextjs.org/">NextJS</a>.
         </p>
 
         <p className="text-left leading-7 mb-6 mt-2">
