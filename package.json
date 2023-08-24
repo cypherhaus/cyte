@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/mixpanel-browser": "^2.38.0",
+    "@vercel/analytics": "^1.0.2",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-code-blocks": "^0.0.9-0",
